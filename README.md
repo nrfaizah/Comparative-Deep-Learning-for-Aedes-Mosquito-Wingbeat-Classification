@@ -1,35 +1,46 @@
-# A Comparative Study of Deep Neural Networks for Aedes Mosquito Species Acoustic Wingbeat Classification
+# Aedes Mosquito Wingbeat Classification
 
-## Overview
-
-## Research Objective
-
-## Dataset
-
-## Audio Preprocessing
-
-## Spectrogram Generation
+This project uses **deep learning to classify Aedes mosquito species based on acoustic wingbeat signals**. The audio signals are converted into spectrogram images and used to train and compare several deep learning architectures.
 
 ## Models
-- ResNet
-- DenseNet
-- MobileNet
-- Vision Transformer (ViT)
 
-## Experimental Setup
+Five deep learning models are evaluated:
 
-## Evaluation Metrics
+* ResNet
+* DenseNet
+* MobileNet
+* Capsule Network (CapsNet)
+* Vision Transformer (ViT)
 
-## Results
+## Project Workflow
 
-## Model Comparison
+**Wingbeat Audio → STFT → Spectrogram → Deep Learning Model → Species Classification**
 
-## Repository Structure
+The wingbeat audio signals are converted into spectrograms using the **Short-Time Fourier Transform (STFT)**. The generated spectrograms are then used as input to the deep learning models.
 
-## Installation
+## Model Evaluation
 
-## Usage
+The models are compared using classification performance metrics such as:
 
-## Citation
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* Confusion Matrix
+
+## Tools & Technologies
+
+* Python
+* PyTorch
+* Deep Learning
+* STFT
+* Audio Signal Processing
+* Computer Vision
+
+## Objective
+
+The objective of this project is to compare different deep learning architectures and identify the most effective model for **Aedes mosquito species classification using acoustic wingbeat spectrograms**.
 
 ## Author
+
+**Nur Faizah Hambali**
